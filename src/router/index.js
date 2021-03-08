@@ -7,14 +7,12 @@ import data from './data.js'
 import store from '../store'
 import VueAxios from 'vue-axios'
 import qs from 'qs'
-// import VueResource from 'vue-resource'
-// Vue.use(VueResource)
 
 Vue.use(VueRouter,VueAxios,axios)
 Vue.prototype.$qs = qs;
 Vue.prototype.$axios = axios;
 
-axios.defaults.baseURL = 'http://localhost:8360/' // 'http://localhost:8360'
+axios.defaults.baseURL = 'http://localhost:8360' // 'http://localhost:8360'
 
 const router = new VueRouter({
   mode: 'history',
