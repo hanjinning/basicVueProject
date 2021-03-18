@@ -16,14 +16,13 @@ axios.defaults.baseURL = 'http://localhost:8360' // 'http://localhost:8360'
 
 const router = new VueRouter({
   mode: 'history',
-  routes: data
-  // [
-  //   {
-  //     path: '/',
-  //     component: App,
-  //     children: data
-  //   }
-  // ]
+  routes: [
+    {
+      path: '/',
+      component: App,
+      children: data
+    }
+  ]
 })
 
 // export default {router, store,axios}

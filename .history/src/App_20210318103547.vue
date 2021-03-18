@@ -4,23 +4,18 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>-->
-    <leftNav></leftNav>
-    <router-view v-if="!$route.meta.keepAlive"/>
+    <router-view />
   </div>
 </template>
 
 <script>
 // import router from "./router";
-import leftNav from '@/components/leftNav.vue'
 
 import {uploadelf, start, getDisassemble} from '@/api/api'
 export default {
   name: "App",
   data: function() {
     return {};
-  },
-  components:{
-    leftNav:leftNav
   },
   mounted() {
     this.loadData();

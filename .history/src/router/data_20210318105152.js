@@ -19,8 +19,8 @@ export default [
   {
     path:'/',
     component:()=> import('@/views/index.vue'),
-    // children:[...root]
+    children:[...root]
   },
-  ...root
+  // ...root
 ]
   

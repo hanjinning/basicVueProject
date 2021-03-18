@@ -8,7 +8,7 @@
 
 <style lang="scss" scoped>
 #index{
-    width: calc(100% - 150px);
+    width: calc(100% - 160px);
     border: 1px solid red;
     position: absolute;
     left: 150px;

@@ -4,8 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>-->
-    <leftNav></leftNav>
-    <router-view v-if="!$route.meta.keepAlive"/>
+    <router-view />
   </div>
 </template>
 
