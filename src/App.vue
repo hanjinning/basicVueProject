@@ -1,17 +1,14 @@
 <template>
   <div id="app">
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>-->
-    <leftNav></leftNav>
-    <router-view v-if="!$route.meta.keepAlive"/>
+    <topNav></topNav>
+    <router-view />
   </div>
 </template>
 
 <script>
 // import router from "./router";
-import leftNav from '@/components/leftNav.vue'
+// import leftNav from '@/components/leftNav.vue'
+import topNav from '@/components/header.vue'
 
 import {uploadelf, start, getDisassemble} from '@/api/api'
 export default {
@@ -20,7 +17,8 @@ export default {
     return {};
   },
   components:{
-    leftNav:leftNav
+    // leftNav:leftNav,
+    topNav:topNav
   },
   mounted() {
     this.loadData();

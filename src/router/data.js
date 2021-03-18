@@ -8,11 +8,17 @@ let firstPage = [
 let root = [
   {
     path:'/index',
-    component:() => import('@/views/Home.vue')
+    component:() => import('@/views/Home.vue'),
+    // meta: {
+    //   keepAlive: false
+    //  }
   },
   {
     path:'/About',
-    component:() => import('@/views/About.vue')
+    component:() => import('@/views/About.vue'),
+    // meta: {
+    //   keepAlive: true
+    //  }
   }
 ]
 export default [

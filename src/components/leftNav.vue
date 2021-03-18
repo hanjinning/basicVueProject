@@ -19,7 +19,6 @@
 #leftNav {
   width: 150px;
   height: 100vh;
-  // background: pink;
   border: 1px solid red;
   position: relative;
   left: 0;
