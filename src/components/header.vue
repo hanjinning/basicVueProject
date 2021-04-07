@@ -1,6 +1,7 @@
 <template>
 <div id="headerNav">
     导航栏：
+   
     <div><router-link to="/">Home</router-link></div>
     <div><router-link to="/About">About</router-link></div>
 </div>

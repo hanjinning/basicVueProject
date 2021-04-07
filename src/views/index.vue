@@ -1,8 +1,15 @@
 <template>
 <div id="index">
     <div>index.vue</div>
-    <Button>Default</Button>
-    <Button type="primary">Primary</Button>
+      <a-button type="primary">
+      Primary
+    </a-button>
+     <a-button type="dashed">
+      Dashed
+    </a-button>
+    <a-button type="danger">
+      Danger
+    </a-button>
 </div>
 </template>
 
