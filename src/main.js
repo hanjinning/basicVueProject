@@ -8,9 +8,11 @@ import 'view-design/dist/styles/iview.css';
 
 Vue.config.productionTip = false
 Vue.use(ViewUI);
+require('es6-promise').polyfill();
 
 new Vue({
   router,
   store,
   render: h => h(App)
+  
 }).$mount('#app')

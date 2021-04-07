@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "core-js": "^3.9.1",
+    "es6-promise": "^4.2.8",
     "path": "^0.12.7",
     "qs": "^6.9.6",
     "view-design": "^4.5.0",
