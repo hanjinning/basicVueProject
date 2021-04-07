@@ -1,5 +1,5 @@
 import 'babel-polyfill'
-// import promise from 'es6-promise'
+import promise from 'es6-promise'
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
