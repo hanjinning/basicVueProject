@@ -4,7 +4,6 @@ function resolve(dir) {
 }
  
 module.exports = {
-  entry: ["babel-polyfill", "./src/main.js"],
   devServer:{
     // host: 'localhost',//target host
     port: 8080,
